@@ -1,101 +1,58 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-     margin: 0;
-     padding: 0;
-     border: 0;
-     font-size: 100%;
-     font: inherit;
-     vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-     display: block;
-}
 body {
-     line-height: 1;
+  font-family: "Roboto", sans-serif;
 }
-ol, ul {
-     list-style: none;
+.card {
+  width: 25%;
+  margin: 0 auto;
+  border: 20px solid #f2f2f2;
+  padding-bottom: 30px;
 }
-blockquote, q {
-     quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-     content: '';
-     content: none;
-}
-table {
-     border-collapse: collapse;
-     border-spacing: 0;
+.card img {
+  width: 100%;
 }
 
-
-
-/* global */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+.card-title {
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 0px 25px;
 }
-.inline-block {
-    display: inline-block;
+.card-subtitle {
+  font-size: 20px;
+  color: red;
+  padding: 0px 25px;
 }
-
-.flex {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+.card-text {
+  font-size: 18px;
+  font-weight: 100;
+  padding: 25px;
 }
-
-.container {
-    max-width: 700px;
-    margin: 20px auto;
-
+#tag {
+  color: white;
+  background-color: red;
+  padding: 8px 40px;
+  font-weight: bold;
+  position: relative;
+  top: -38px;
 }
-.nature-img {
-	width: 100%;
-	height: 450px;
-	object-fit: cover;
+#date {
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  font-weight: bold;
+  position: relative;
+  top: -180px;
+  left: 190px;
+  padding: 15px;
+  font-size: 25px;
 }
-.details {
-	width: 600px;
-	margin: 0 auto;
+.comments {
+  padding: 25px;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 25px;
 }
-h1 {
-	font-size: 36px;
-	margin-top: 15px;
-	color: black;
-}
-h3 {
-	font-size: 28px;
-    margin: 15px 0;
-    color: red;
-}
-
-p {
-	font-size: 20px;
-	line-height: 23px;
-	padding-bottom: 20px;
-	color: #7B7B7B;
-}
-article {
-	box-shadow: 2px 2px 3px 3px #E8E8E8
+.time {
+  padding: 25px;
+  font-size: 18px;
+  font-weight: 100;
 }
