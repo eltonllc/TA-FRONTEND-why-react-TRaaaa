@@ -1,7 +1,7 @@
 import data from "../config/data";
 import "./Cards.css";
 
-function cards() {
+function Cards() {
   return (
     <section className="cards">
       {data.map((article) => {
@@ -23,4 +23,4 @@ function Card(props) {
     </div>
   );
 }
-export default cards;
+export default Cards;
