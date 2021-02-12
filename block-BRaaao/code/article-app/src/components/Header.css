@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-around;
+}
+.brand {
+  padding: 15px 0px;
+}
+.navItem {
+  padding: 15px;
+}
